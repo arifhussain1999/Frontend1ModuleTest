@@ -1,3 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-10, .container-17, .container-15, .container-4, .container-16, .container-14,
+  .container-6, .container-8, .group-2, .group-1, .container-5, .container-11, .container-7,
+  .container-18, .group-11, .container-2, .container-3, .container-9, .container-1,
+  .container-12, .group-21, .container-13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .container-10, .container-17, .container-8, .container-11, .container-3 {
+    flex-direction: column;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .desktop-view {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .desktop-view {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .desktop-view {
+      padding: 10px;
+    }
+  
+    .container-10, .container-17, .container-8, .container-11, .container-3 {
+      flex-direction: column;
+    }
+  
+    .container-6, .container-5, .container-2, .container-1, .container-13 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  /* Text Styles */
+  .company, .collections, .menu, .menu-1, .events, .contact, .loreumipsum, .loreumipsum-1, .loreumipsum-2,
+  .get-started, .get-started-1, .get-started-2, .get-started-3, .loreum-ipsum-heading, .loreum-ipsum-heading-1,
+  .portrait, .portrait-1 {
+    font-size: 18px;
+    margin: 5px;
+  }
+  
+  /* Hover Effects for Images */
+  .screenshot-20230329-at-7261, .screenshot-20230329-at-7301, .screenshot-20230329-at-7341 {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .screenshot-20230329-at-7261:hover, .screenshot-20230329-at-7301:hover, .screenshot-20230329-at-7341:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Line Styles */
+  .line-1, .line-11, .line-12, .line-2 {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 10px 0;
+  }
+  
 .desktop-view .collections {
     overflow-wrap: break-word;
     font-family: 'Inter';
@@ -29,7 +101,7 @@
   }
   .desktop-view .screenshot-20230329-at-7261 {
     border-radius: 20px;
-    background: url('../assets/images/screenshot_20230329_at_7261.png') 50% / cover no-repeat;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_N8bcvJygmdfqNjeOoLo7Np0anGmS0ooITwzI3FI1eyPsmg-j') 50% / cover no-repeat;
     margin: 0 18px 35px 17px;
     width: 631px;
     height: 730px;
@@ -136,7 +208,7 @@
   }
   .desktop-view .screenshot-20230329-at-7301 {
     border-radius: 20px;
-    background: url('../assets/images/screenshot_20230329_at_7301.png') 50% / cover no-repeat;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9OJzIvB_HExqV8Qxl4oOac4n2bd7Nyg5B99j4vZ7jz9Xzv6P') 50% / cover no-repeat;
     width: 523px;
     height: 235px;
   }
@@ -203,7 +275,7 @@
   }
   .desktop-view .screenshot-20230329-at-7341 {
     border-radius: 20px;
-    background: url('../assets/images/screenshot_20230329_at_7341.png') 50% / cover no-repeat;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHOEcJtSaIY8f-K6-AAXeVq56Nyqq-wMVQSoRGC8F8RmT7JiGr') 50% / cover no-repeat;
     margin: 0 13.4px 18px 6px;
     width: 385px;
     height: 168px;
